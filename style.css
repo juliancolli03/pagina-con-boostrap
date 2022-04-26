@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav {
+        font-family: Impact, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        
+}
+.nav-link:hover {
+        border-bottom: 3p solid white;
+        transition: 0.3s; 
+}      
+             
+article {
+    width: 800px;
+    padding: 10px;
+    font-size: 22px;
+}
+body {
+    background: rgb(66,118,147);
+    background: linear-gradient(90deg, rgba(66,118,147,1) 0%, rgba(16,29,133,0) 0%, rgba(72,80,137,1) 0%, rgba(136,137,141,1) 100%, rgba(17,31,197,1) 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+        display: grid;
+        color: rgb(255, 255, 255);
+        font-family: monospace;
+        font-size: 40px;
+        padding: 10px;
+}
+footer{
+       
+       width: 100%;
+       color: rgb(208, 30, 27);
+       font-size: 50px;
+       padding-top: 20px;
+       text-align: center;
+       margin-top: auto;
+}
+footer p{
+        font-size: 20px;
+        background-color: rgb(7, 7, 6);
+        padding-top: 20px;
+        margin-top: auto;
+        width: 100%;
+        color: rgb(208, 30, 27);
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+h2{
+        color: white;
+        margin-top: 5px;
+        font-family: monospace;
+        font-size: 35px;
+        padding: 10px;
+}
+/* img{
+        border: solid  rgb(172, 172, 172);
+        mix-blend-mode:hard-light
+} */
+
+
+.parrafo{
+        display: grid;
+        color: rgb(15, 16, 18);
+        font-size: 1.2cm;
+        line-height: 60px;
+        margin: 130px 10px 10px 10px;
+        text-shadow: 10px 10px 10px rgb(19, 10, 86);
+        margin-top: 190px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo{
+        text-align: center;
+        margin-top: 3rem;
+        
+}
+.contactame{
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-family:monospace;
+
+}
+.g{
+        background-size:100vw 100vh;
+        background-attachment: fixed;
+        margin: 0;
+
+
+}
+form{
+        background-color: rgb(98, 94, 94);
+        width: 450px;
+        margin: auto;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 20px;
+        
+}
+input{
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+}
+
+.contenedor{
+        display:flex
+              
+}
+.foto{
+    height: 370px;
+}
+.lorem{
+        float: right;
+        display: block;
+        color: mistyrose;
+        font-size: 1cm;
+        line-height: 50px;
+        margin: 100px 10px 10px 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boton{
+        display: none;
+}
+@media (max-width:1200px){
+        
+        ul{
+                flex-direction: column;
+        }
+        nav{
+                padding:  10px 0px;
+                display: block;
+                width: 100%;
+                height: 30%;
+        }
+        
+}
+@media only screen and (max-width:650px){
+        
+        .contenedor{
+                display: flex;
+                flex-wrap: wrap;
+        }
+        .uno{
+                width: 30%;
+                height: 70%;
+        }
+        .dos{
+                width: 70%;
+                height: 70%;
+        }
+        .tres{
+                width: 100%;
+                height: 30%;
+        
+        }
+}
+
